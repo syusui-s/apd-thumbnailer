@@ -14,3 +14,7 @@ These snippets allow pcmanfm to show thumbnails of APD format.
     * Requirements
         * apdtool
         * imagemagick
+
+## Issues
+* Slow
+    * because apdtool takes 0.3-1.0 sec to generate BMP image.
