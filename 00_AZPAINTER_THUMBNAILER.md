@@ -3,6 +3,11 @@ These snippets allow pcmanfm to show thumbnails of APD format.
 
 ## How to Install
 
+* Prerequisites
+    * Install apdtool (APD -> BMP)
+    * Install imagemagick (BMP -> PNG Thumbnail)
+    * Install azpainter (for texture)
+
 ```sh
 curl -sSL "https://gist.githubusercontent.com/syusui-s/4059250e5b502071011c7cdcdcf46ef7/raw/install.sh" | bash -
 ```
