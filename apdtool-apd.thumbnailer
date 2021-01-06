@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=apdthumbnailer
+Exec=apdthumbnailer %i %o %s
+MimeType=application/x-azpainter-apd;

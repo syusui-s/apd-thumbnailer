@@ -1,0 +1,13 @@
+#!/bin/sh
+
+input="$1"
+output="$2"
+size="$3"
+
+TMPFILE="$(mktemp --suffix=.bmp)"
+trap "rm -f '${TMPFILE}'" 0               # EXIT
+trap "rm -f '${TMPFILE}'; exit 1" 2       # INT
+trap "rm -f '${TMPFILE}'; exit 1" 1 15    # HUP TERM
+
+apdtool -o "${TMPFILE}" "${input}" 1>/dev/null 2>&1
+convert -trim -resize "${size}x${size}" "${TMPFILE}" "${output}"
