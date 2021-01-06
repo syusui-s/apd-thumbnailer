@@ -1,14 +1,10 @@
 # AzPainer APD Thumbnailer
 These snippets allow pcmanfm to show thumbnails of APD format.
 
-```
-git clone https://gist.github.com/4059250e5b502071011c7cdcdcf46ef7.git azpainter_thumbnailer
-cd azpainter_thumbnailer/
-sudo mkdir -p /usr/local/share/thumbnailers/
-sudo cp apdthumbnailer /usr/local/bin/
-sudo cp apdtool-apd.thumbnailer /usr/local/share/thumbnailers/
-cd ..
-rm -rf azpainter_thumbnailer/
+## How to Install
+
+```sh
+curl -sSL "https://gist.githubusercontent.com/syusui-s/4059250e5b502071011c7cdcdcf46ef7/raw/install.sh" | bash -
 ```
 
 * `apdtool-apd.thumbnailer`
@@ -21,6 +17,7 @@ rm -rf azpainter_thumbnailer/
     * Location
         * `/usr/local/bin/apdthumbnailer`
         * or directory in PATH environment variable
+        * or copy apdthumbnailer to location that you like and rewrite 'apdthumbnailer' in this file to its absolute path
     * Requirements
         * apdtool
         * imagemagick
