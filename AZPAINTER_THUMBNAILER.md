@@ -1,3 +1,6 @@
+# AzPainer APD Thumbnailer
+These snippets allow pcmanfm to show thumbnails of APD format.
+
 * `apdtool-apd.thumbnailer`
     * Location
         * `/usr/share/thumbnailers/apdtool-apd.thumbnailer`
