@@ -14,6 +14,7 @@ These snippets allow pcmanfm to show thumbnails of APD format.
     * Requirements
         * apdtool
         * imagemagick
+        * azpainter (for texture)
 
 ## Issues
 * Slow
