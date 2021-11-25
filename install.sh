@@ -1,6 +1,6 @@
 set -x
 
-git clone https://gist.github.com/4059250e5b502071011c7cdcdcf46ef7.git azpainter_thumbnailer
+git clone https://github.com/syusui-s/apd-thumbnailer.git azpainter_thumbnailer
 cd azpainter_thumbnailer/
 
 BIN_DIR="$HOME/.local/bin"
