@@ -18,7 +18,7 @@ This work is published from:
 
 ---
 
-Create APD format thumbnails on file manager.
+Create APD format (v1/v2/v3/v4) thumbnails on file manager.
 
 * Supported
     * PCManFM (LXDE)
