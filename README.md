@@ -41,8 +41,9 @@ Create APD format thumbnails on file manager.
     * Install `imagemagick` (BMP -> PNG Thumbnail)
     * Install `azpainter` (for texture)
 
+
 ```sh
-curl -sSL "https://gist.githubusercontent.com/syusui-s/4059250e5b502071011c7cdcdcf46ef7/raw/install.sh" | bash -
+curl -sSL "https://raw.githubusercontent.com/syusui-s/apd-thumbnailer/master/install.sh" | bash -
 ```
 
 ## Files
@@ -68,3 +69,5 @@ curl -sSL "https://gist.githubusercontent.com/syusui-s/4059250e5b502071011c7cdcd
 ## Issues
 * Slow
     * because apdtool takes 0.3-1.0 sec to generate BMP image.
+
+<!-- vim: set ft=markdown et ts=4 sw=4 : -->
