@@ -32,7 +32,7 @@ Create APD format (v1/v2/v3/v4) thumbnails on file manager.
 * Not Supported
     * Dolphin (KDE)
         * KDE supports custom thumbnailer but I didn't implement that.
-        * The implementation of [ThumbCreator virtual class](https://api.kde.org/frameworks/kio/html/classThumbCreator.html) is needed.
+        * An implementation of [ThumbCreator virtual class](https://api.kde.org/frameworks/kio/html/classThumbCreator.html) is needed.
 
 ## How to Install
 
