@@ -1,5 +1,18 @@
 # AzPainer APD Thumbnailer
-These snippets allow pcmanfm to show thumbnails of APD format.
+Create APD format thumbnails on file manager.
+
+* Supported
+    * PCManFM (LXDE)
+* Maybe works
+    * Gnome Files, Nautilus (GNOME)
+        * You should restart Nautilus after installation: `nautilus -q`
+    * Thunar (Xfce)
+        * [Tumbler](https://docs.xfce.org/xfce/thunar/4.14/tumbler) supports Thumbnailer Entry.
+    * Pantheon File Manager (Pantheon)
+        * It seems that Pantheon depends on Thumbler.
+* Not Supported
+    * Dolphin (KDE)
+        * The implementation of [ThumbCreator virtual class](https://api.kde.org/frameworks/kio/html/classThumbCreator.html) is needed.
 
 ## How to Install
 
