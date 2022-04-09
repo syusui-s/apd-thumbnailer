@@ -37,10 +37,9 @@ Create APD format (v1/v2/v3/v4) thumbnails on file manager.
 ## How to Install
 
 * Prerequisites
-    * Install `apdtool` (APD -> BMP)
+    * Install [`apdtool`](https://gitlab.com/azelpg/apdtool) (APD -> BMP)
     * Install `imagemagick` (BMP -> PNG Thumbnail)
-    * Install `azpainter` (for texture)
-
+    * Install [`azpainter`](https://gitlab.com/azelpg/azpainter) (for texture)
 
 ```sh
 curl -sSL "https://raw.githubusercontent.com/syusui-s/apd-thumbnailer/master/install.sh" | bash -
