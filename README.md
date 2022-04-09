@@ -1,24 +1,8 @@
 # AzPainer APD Thumbnailer
 
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  <a rel="license"
-     href="http://creativecommons.org/publicdomain/zero/1.0/">
-    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
-  </a>
-  <br />
-  To the extent possible under law,
-  <a rel="dct:publisher"
-     href="https://gist.github.com/syusui-s/4059250e5b502071011c7cdcdcf46ef7">
-    <span property="dct:title">Syusui Moyatani</span></a>
-  has waived all copyright and related or neighboring rights to
-  <span property="dct:title">AzPainer APD Thumbnailer</span>.
-This work is published from:
-<span property="vcard:Country" datatype="dct:ISO3166" content="JP" about="https://gist.github.com/syusui-s/4059250e5b502071011c7cdcdcf46ef7">Japan</span>.
-</p>
+Create APD format (v1/v2/v3/v4) thumbnails on the File Manager.
 
----
-
-Create APD format (v1/v2/v3/v4) thumbnails on file manager.
+## Supported File Manager
 
 * Supported
     * PCManFM (LXDE)
@@ -68,5 +52,24 @@ curl -sSL "https://raw.githubusercontent.com/syusui-s/apd-thumbnailer/master/ins
 ## Issues
 * Slow
     * because apdtool takes 0.3-1.0 sec to generate BMP image.
+
+-----
+
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="https://gist.github.com/syusui-s/4059250e5b502071011c7cdcdcf46ef7">
+    <span property="dct:title">Syusui Moyatani</span></a>
+  has waived all copyright and related or neighboring rights to
+  <span property="dct:title">AzPainer APD Thumbnailer</span>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166" content="JP" about="https://gist.github.com/syusui-s/4059250e5b502071011c7cdcdcf46ef7">Japan</span>.
+</p>
+
 
 <!-- vim: set ft=markdown et ts=4 sw=4 : -->
